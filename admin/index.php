@@ -3,7 +3,7 @@
 session_start();
 
 if(!isset($_SESSION['usuario'])){
-    header('Location: /index.php?erro=1');
+    header('Location: /login.php?erro=1');
 }
 ?>
 <!DOCTYPE html>

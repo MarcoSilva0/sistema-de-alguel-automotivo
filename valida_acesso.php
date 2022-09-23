@@ -24,9 +24,9 @@
             $_SESSION['usuario'] = $dados_usuario['usuario'];
             $_SESSION['email'] = $dados_usuario['email'];
 
-            header('Location: admin/index.php');
+            header('Location: admin/');
         }else{
-            header('Location: /index.php?erro=1');
+            header('Location: /login.php?erro=1');
         }
     }else{
         echo 'Erro na execução da consulta, favor entrar em contato com o administrador do sistema!';
